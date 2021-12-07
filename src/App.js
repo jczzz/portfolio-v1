@@ -8,11 +8,11 @@ import ContactPage from './Pages/ContactPage';
 
 
 function App() {
-  const [theme, setTheme] = useState('dark-theme');
+  //const [theme, setTheme] = useState('dark-theme');
 
   useEffect(()=>{
-    document.documentElement.className = theme;
-  }, [theme]);
+    document.documentElement.className = 'dark-theme';
+  }, []);
 
  
   return (
